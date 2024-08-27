@@ -172,8 +172,8 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 ---
 
 ### **`🌴 COLABORADORES`**
-<a href="https://github.com/Dev-Diego/YaemoriBot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=Dev-Diego/YaemoriBot-MD" /> 
+<a href="https://github.com/Dev-Diego/Yaemori-Bot-MD/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=Dev-Diego/Yaemori-Bot-MD" /> 
 </a>
 
 ### **`👑 PROPIETARIO`**
