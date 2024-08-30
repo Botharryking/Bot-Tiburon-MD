@@ -48,18 +48,18 @@ const cleanDb = async () => {
 const handler = async (m, { conn, usedPrefix, command, text }) => {
 if (!db.data.chats[m.chat].modohorny && m.isGroup) throw '🚩 *¡Estos comandos están desactivados!*';
   if (!text) {
-    throw `🚩 *Por favor, proporciona un texto*\n🍟 *Ejemplo:* ${usedPrefix + command} Alya`;
+    throw `🚩 *Por favor, proporciona un texto*\n🦈 *Ejemplo:* ${usedPrefix + command} Alya`;
   }
   
   try {
-  conn.reply(m.chat, '🍟  *Enviando Los Resultados...*', m, {
+  conn.reply(m.chat, '🦈 *Enviando Los Resultados...*', m, {
       contextInfo: { 
         externalAdReply: { 
           mediaUrl: null, 
           mediaType: 1, 
           showAdAttribution: true,
           title: packname,
-          body: '🌟 Ai Yaemori - MD',
+          body: '🌟 Tiburon Bot - MD',
           previewType: 0, 
           thumbnail: icons,
           sourceUrl: redes 
