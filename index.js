@@ -13,15 +13,15 @@ const require = createRequire(__dirname);
 const { name, description, author, version } = require(join(__dirname, './package.json'));
 const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
-say('Tiburon\nBot', {
-font: 'block',
-align: 'center',
-colors: ['white']
-});
-say(`Multi Device`, {
+say('Bot Tiburon\nWhatsApp Bot', {
 font: 'chrome',
 align: 'center',
-colors: ['red']
+gradient: ['red', 'magenta']
+})
+say(`TiburonBot By Dev-Diego`, {
+font: 'console',
+align: 'center',
+gradient: ['red', 'magenta']
 });
 say(`Developed By • Dev Diego`, {
 font: 'console',
