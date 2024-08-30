@@ -17,7 +17,7 @@ say('Bot Tiburon\nWhatsApp Bot', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']
-})
+});
 say(`TiburonBot By Dev-Diego`, {
 font: 'console',
 align: 'center',
