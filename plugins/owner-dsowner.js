@@ -11,7 +11,7 @@ return conn.reply(m.chat, '🚩 *Utiliza este comando directamente en el número
 await conn.reply(m.chat, '🚩 *Iniciando proceso de eliminación de todos los archivos de sesión, excepto el archivo creds.json...*', m, rcanal, )
 m.react(rwait)
 
-let sessionPath = './MiniSession/'
+let sessionPath = './TiburonSession/'
 
 try {
 
@@ -42,7 +42,7 @@ await conn.reply(m.chat, '🚩 *Ocurrió un fallo*',  m, rcanal, )
 }
 handler.help = ['dsowner']
 handler.tags = ['fix', 'owner']
-handler.command = ['delai', 'delyaemori', 'dsowner', 'clearallsession']
+handler.command = ['delai', 'deltiburon', 'dsowner', 'clearallsession']
 
 handler.rowner = true
 
