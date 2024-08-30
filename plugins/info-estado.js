@@ -14,16 +14,16 @@ let muptime = clockString(_muptime)
 const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
 const groupsIn = chats.filter(([id]) => id.endsWith('@g.us')) 
 const used = process.memoryUsage()
-let yaemori = `╭─⬣「 *Estado De Ai Yaemori* 」⬣\n`
-yaemori += `│ 🚩 *Creador ∙* DevDiego\n`
-yaemori += `│ 📚 *Grupos Unidos ∙* ${groupsIn.length}\n`
-yaemori += `│ 👤 *Chats Privados ∙* ${chats.length - groupsIn.length}\n`
-yaemori += `│ 💬 *Total De Chats ∙* ${chats.length}\n`
-yaemori += `│ 🍟 *Usuarios Registrados ∙* ${totalreg}\n`
-yaemori += `│ 🍭 *Grupos Registrados ∙* ${totalchats}\n`
-yaemori += `│ 🕜 *Actividad ∙* ${muptime}\n`
-yaemori += `╰─⬣`
-await conn.sendFile(m.chat, pp, 'yaemori.jpg', yaemori, fkontak, null, rcanal)
+let yaemori = `╭─⬣「 *Estado De TiburonBot* 」⬣\n`
+txt += `│ 🚩 *Creador ∙* DevDiego\n`
+txt += `│ 📚 *Grupos Unidos ∙* ${groupsIn.length}\n`
+txt += `│ 👤 *Chats Privados ∙* ${chats.length - groupsIn.length}\n`
+txt += `│ 💬 *Total De Chats ∙* ${chats.length}\n`
+txt += `│ 🍟 *Usuarios Registrados ∙* ${totalreg}\n`
+txt += `│ 🍭 *Grupos Registrados ∙* ${totalchats}\n`
+txt += `│ 🕜 *Actividad ∙* ${muptime}\n`
+txt += `╰─⬣`
+await conn.sendFile(m.chat, pp, 'tiburon.jpg', txt, fkontak, null, rcanal)
 }
 handler.help = ['status']
 handler.tags = ['info']
