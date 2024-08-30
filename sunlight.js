@@ -112,7 +112,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['YaemoriBot-MD', 'Edge', '20.0.04'] : methodCodeQR ? ['YaemoriBot-MD', 'Edge', '20.0.04'] : ['Ubuntu', 'Edge', '110.0.1587.56'], 
+browser: opcion == '1' ? ['TiburonBot-MD', 'Edge', '20.0.04'] : methodCodeQR ? ['TiburonBot-MD', 'Edge', '20.0.04'] : ['Ubuntu', 'Edge', '110.0.1587.56'], 
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -260,7 +260,7 @@ if (opcion == '1' || methodCodeQR) {
     console.log(chalk.bold.yellow(`\n✅ ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS`))}
 }
    if (connection == 'open') {
-    await conn.groupAcceptInvite('BeukLUNoHtNJDKmMDTfQnd')
+   // await conn.groupAcceptInvite('BeukLUNoHtNJDKmMDTfQnd')
       console.log(chalk.greenBright('╭───────────────────────────◉\n│\n│🌺◌*̥₊ 𝙲𝚘𝚗𝚎𝚌𝚝𝚊𝚍𝚘 𝙲𝚘𝚛𝚛𝚎𝚌𝚝𝚊𝚖𝚎𝚗𝚝𝚎.\n│\n╰───────────────────────────◉'));
   }
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
