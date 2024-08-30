@@ -30,7 +30,7 @@ let tags = {
 const defaultMenu = {
   before: `*─ׄ─ׅ─⭒─ׄ─ׄ─⭒─ׅ─ׄ─⭒─ׄ─ׄ─⭒─ׄ─ׄ─*
 
-“ Hola *%name* soy *Ai-Yaemori*, %greeting ”
+“ Hola *%name* soy *TiburonBot*, %greeting ”
 
 ┏━「🐢⸽⃕ *Info User* 🍁⃨፝⃕✰」━⊜
 ┃⋄ 🍟 *Bot:* TiburonBot-MD 
