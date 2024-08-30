@@ -11,11 +11,7 @@ import moment from 'moment-timezone'
 
 global.owner = [
    ['573218138672', 'Owner 🍭', true],
-   ['573012482597', 'Dev Diego 👑', true],
-   ['50558124470'],
-   ['573218138672'],
-   ['5351524614'],
-   ['573027866596']
+   ['573012482597', 'Dev Diego 👑', true]
 ]
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -29,18 +25,18 @@ global.prems = []
 global.isBaileysFail = false
 global.libreria = 'Baileys'
 global.baileys = 'V 6.7.7'
-global.sessions = 'MiniSession'
-global.jadi = 'MiniJadiBot'
+global.sessions = 'TiburonSession'
+global.jadi = 'TiburonJadiBot'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '⪛✰ 𝐀𝐢 𝐘𝐚𝐞𝐦𝐨𝐫𝐢 - 𝐌𝐃 ✰⪜'
-global.botname = '𝗔𝗶 𝗬𝗮𝗲𝗺𝗼𝗿𝗶 - 𝗠𝗗 🍭'
-global.wm = '𝗬𝗮𝗲𝗺𝗼𝗿𝗶 𝗕𝗼𝘁 - 𝗠𝗗 ⭐️'
+global.packname = '⪛✰ 𝐓𝐢𝐛𝐮𝐫𝐨𝐧 𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
+global.botname = '𝗧𝗶𝗯𝘂𝗿𝗼𝗻 𝗕𝗼𝘁 - 𝗠𝗗 🦈'
+global.wm = '𝚃𝚒𝚋𝚞𝚛𝚘𝚗𝙱𝚘𝚝 🦈'
 global.author = '𝖮𝖿𝖼.𝖣𝗂𝖾𝗀𝗈 👑'
 global.dev = '© Powered By Sunlight Team ⚡︎'
 6
-global.textbot = '𝗔𝗶 𝗬𝗮𝗲𝗺𝗼𝗿𝗶 : 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 🚩'
+global.textbot = '𝚃𝚒𝚋𝚞𝚛𝚘𝚗𝙱𝚘𝚝 𝙱𝚢 » 𝙾𝚏𝚌𝙳𝚒𝚎𝚐𝚘 🌹'
 global.vs = '2.0.6'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
@@ -56,20 +52,16 @@ global.avatar = fs.readFileSync('./media/avatar_contact.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.grupo = 'https://chat.whatsapp.com/BeukLUNoHtNJDKmMDTfQnd' //YaemoriBot
-global.grupo2 = 'https://chat.whatsapp.com/EVc2XJuZwjnKKdWUsRYmms' //YaemoriBot2
-global.grupo3 = 'https://chat.whatsapp.com/Fy74b6fgE9SJJpHVi6CKJY' //team oficial
-global.grupo4 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot & YaemoriBot
+global.grupo = ''
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A'
 global.channel2 = 'https://whatsapp.com/channel/0029Vam7yUg77qVaz3sIAp0z'
-global.md = 'https://github.com/Dev-Diego/YaemoriBot-MD' 
+global.md = 'https://github.com/Dev-Diego/Bot-Tiburon-MD' 
 global.yt = 'https://www.youtube.com/@OfcDiego'
-global.tiktok = 'https://tiktok.com/@theyaemoribot'
-global.correo = 'theyaemoribot@gmail.com'
+global.correo = 'thetiburonbot@gmail.com'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '🌱 𝗦𝘂𝗽𝗲𝗿 𝗔𝗶 𝗬𝗮𝗲𝗺𝗼𝗿𝗶 🍟', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '🌱 𝗦𝘂𝗽𝗲𝗿 𝗧𝗶𝗯𝘂𝗿𝗼𝗻𝗕𝗼𝘁 🦈', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
