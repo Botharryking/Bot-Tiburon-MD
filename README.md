@@ -1,5 +1,5 @@
 <h1 align="center">Tiburon Bot - MD 🦈</h1>
-![tiburon](https://telegra.ph/file/81dc0754215be1af459f4.jpg)
+[!tiburon](https://telegra.ph/file/81dc0754215be1af459f4.jpg)
  <p align="center">🚩 WhatsApp Bot Node-Js.</p>
 </p>
 
