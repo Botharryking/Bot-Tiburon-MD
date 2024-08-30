@@ -1,5 +1,5 @@
 {
-"name": "YaemoriBot-MD",
+"name": "TiburonBot-MD",
 "version": "2.0.6",
 "description": "Simple WhatsApp Bot Multi Device",
 "main": "index.js",
@@ -16,16 +16,16 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/Dev-Diego/YaemoriBot-MD",
+"homepage": "https://github.com/Dev-Diego/Bot-Tiburon-MD",
 "author": {
 "name": "Dev-Diego"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Dev-Diego/YaemoriBot-MD.git"
+"url": "git+https://github.com/Dev-Diego/Bot-Tiburon-MD.git"
 },
 "bugs": {
-"url": "https://github.com/Dev-Diego/YaemoriBot-MD/issues"
+"url": "https://github.com/Dev-Diego/Bot-Tiburon-MD/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
