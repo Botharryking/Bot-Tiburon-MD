@@ -92,13 +92,10 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363192435027853@newsletter', newsletterName: "『✯ Team Channel TiburonBot ✯』", serverMessageId: -1 }
 }}, { quoted: m }
 
-/*global.icono = [ 
-'',
-'',
-''
-].getRandom()*/
-
-global.icono = 'https://qu.ax/nCcU.jpg'
+global.icono = [ 
+'https://qu.ax/nCcU.jpg',
+'https://qu.ax/RZFV.jpg'
+].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: "120363263466636910@newsletter", serverMessageId: 100, newsletterName: '『✯ Team Channel TiburonBot ✯』', }, externalAdReply: { showAdAttribution: true, title: packname, body: dev, mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
 
