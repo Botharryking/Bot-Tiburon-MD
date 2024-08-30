@@ -44,11 +44,7 @@ global.vs = '2.0.6'
 global.imagen1 = fs.readFileSync('./media/Menu.jpg')
 global.imagen2 = fs.readFileSync('./media/Menu2.jpg')
 global.imagen3 = fs.readFileSync('./media/Menu3.jpg')
-global.welcome = fs.readFileSync('./media/welcome.jpg')
-global.adios = fs.readFileSync('./media/adios.jpg')
 global.catalogo = fs.readFileSync('./media/catalogo.jpg')
-global.miniurl = fs.readFileSync('./media/miniurl.jpg')
-global.avatar = fs.readFileSync('./media/avatar_contact.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
