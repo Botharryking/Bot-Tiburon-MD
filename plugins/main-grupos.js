@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'
+/*import fetch from 'node-fetch'
 
 let handler  = async (m, { conn, usedPrefix, command }) => {
 
@@ -40,4 +40,4 @@ await m.react(emojis)
 handler.help = ['grupos']
 handler.tags = ['main']
 handler.command = ['grupos', 'aigrupos', 'gruposai']
-export default handler
+export default handler*/
