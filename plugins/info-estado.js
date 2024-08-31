@@ -14,7 +14,7 @@ let muptime = clockString(_muptime)
 const chats = Object.entries(conn.chats).filter(([id, data]) => id && data.isChats)
 const groupsIn = chats.filter(([id]) => id.endsWith('@g.us')) 
 const used = process.memoryUsage()
-let yaemori = `╭─⬣「 *Estado De TiburonBot* 」⬣\n`
+let txt = `╭─⬣「 *Estado De TiburonBot* 」⬣\n`
 txt += `│ 🚩 *Creador ∙* DevDiego\n`
 txt += `│ 📚 *Grupos Unidos ∙* ${groupsIn.length}\n`
 txt += `│ 👤 *Chats Privados ∙* ${chats.length - groupsIn.length}\n`
